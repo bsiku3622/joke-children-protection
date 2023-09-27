@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>자녀 보호 기능이 활성화되었습니다.</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: 'Noto Sans KR', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="h-screen flex items-center justify-center flex-col">
+      <img
+        width="70"
+        height="70"
+        src="https://img.icons8.com/external-stickers-smashing-stocks/70/external-Opps-Error-success-and-error-messages-stickers-smashing-stocks.png"
+        alt="external-Opps-Error-success-and-error-messages-stickers-smashing-stocks"
+      />
+      <p class="font-normal text-2xl">이런! 제한모드가 사용되었습니다.</p>
+      <div class="items-center justify-center flex-col hidden sm:flex">
+        <p class="font-normal text-lg mt-3">
+          부모님이 이 사이트를 차단했으므로 이 사이트를 이용할 수 없습니다.
+        </p>
+      </div>
+      <div class="flex items-center justify-center flex-col sm:hidden">
+        <p class="font-normal text-lg mt-3">
+          부모님이 이 사이트를 차단했으므로
+        </p>
+        <p class="font-normal text-lg">이 사이트를 이용할 수 없습니다.</p>
+      </div>
+      <a
+        href="https://support.google.com/googleplay/answer/1075738?hl=ko"
+        class="font-normal text-sm mt-6 underline"
+        >더 자세히 알아보기</a
+      >
+    </main>
+  </body>
+</html>
